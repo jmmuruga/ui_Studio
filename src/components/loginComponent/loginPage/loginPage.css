@@ -1,0 +1,89 @@
+.containerlogin {
+    background-color: rgb(14, 0, 0, 0.1);
+    height: 100vh !important;
+    width: 100vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-image: linear-gradient(to top left, #29AB87, #004953);
+    border-radius: 5px;
+    padding: 0px 30px;
+}
+
+.logintext {
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px solid white;
+}
+
+.inputlabel {
+    display: flex;
+    margin-top: 20px;
+}
+
+.label {
+    width: 33%;
+}
+
+.input-lo {
+    width: 65%;
+}
+
+.forgettext {
+    margin-top: 3px;
+    margin-left: 33%;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.forgettext:hover {
+    font-weight: 600;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 5px 0px;
+}
+
+.submit-button {
+    border: 2px solid #006A4E;
+    background-color: #006A4E;
+    color: white;
+    cursor: pointer;
+    padding: 6px 15px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.home-button {
+    border: 2px solid #004953;
+    background-color: #004953;
+    color: white;
+    cursor: pointer;
+    padding: 6px 15px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.submit-button:active,
+.submit-button:hover,
+.submit-button:focus {
+    background-color: green;
+    border: 2px solid green;
+}
+
+.home-button:active,
+.home-button:hover,
+.home-button:focus {
+    background-color: blue;
+    border: 2px solid blue;
+}

@@ -1,0 +1,40 @@
+.heading {
+    height: 60px;
+    border-bottom: 2px solid grey;
+    border-left: 0px solid white !important;
+    border-radius: 0px !important;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 99;
+}
+
+.ul-list {
+    list-style-type: none;
+}
+
+.li-list {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    margin: 1vh;
+    padding: 1vh;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a:active,
+a:hover {
+    color: #007791 !important;
+}
+
+a:visited {
+    color: black;
+}
+
+.navactive {
+    color: #007791 !important;
+    font-weight: 700;
+}

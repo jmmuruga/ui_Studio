@@ -1,0 +1,28 @@
+.dropzone {
+    height: 160px;
+    width: 160px;
+    border: 2px dashed grey;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.dropzoneimg {
+    height: 160px;
+    width: 155px;
+    /* border: 2px dashed grey; */
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.ad-button {
+    background-color: lightblue !important;
+    font-weight: 600 !important;
+}
